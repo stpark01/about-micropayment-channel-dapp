@@ -1,0 +1,67 @@
+body {
+    background-color: #151D30;
+    color: #FFFFFF;
+    font-family: Verdana;
+    margin: auto;
+    width: 60%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#authors-nav ul {
+    list-style: none;
+    margin-right: 40px;
+    text-align: center;
+}
+
+#authors-nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#authors-nav a {
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#authors-nav a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+#project-links {
+    text-align: center;
+}
+
+button {
+    background-color: #24A0ED;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    height: 40px;
+    margin: 10px;
+    transition: 0.1s;
+    width: 120px;
+}
+
+button:hover {
+    background-color: #005581;
+    cursor: pointer;
+}
+
+p {
+    text-align: justify;
+}
+
+#live-website {
+    width: 500px;
+    height: 200px;
+}
+
+#framework-image {
+    width: 500px;
+    height: 500px;
+}
